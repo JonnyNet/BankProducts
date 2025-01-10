@@ -1,0 +1,9 @@
+﻿global using BankProducts.Application.Commands;
+global using BankProducts.Application.Enums;
+global using BankProducts.Domain.Enums;
+global using BankProducts.Domain.Events;
+global using BankProducts.Domain.Repositories;
+global using BankProducts.Domain.Services;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;

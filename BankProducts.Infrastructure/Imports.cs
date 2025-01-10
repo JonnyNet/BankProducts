@@ -1,0 +1,9 @@
+﻿global using BankProducts.Domain.Entities;
+global using BankProducts.Infrastructure.Context;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Data.Common;
+global using System.Reflection;

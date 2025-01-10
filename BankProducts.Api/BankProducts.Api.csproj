@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>bebdcae0-d469-40ab-9711-8c3650623c35</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankProducts.Application\BankProducts.Application.csproj" />
+    <ProjectReference Include="..\BankProducts.Domain\BankProducts.Domain.csproj" />
+    <ProjectReference Include="..\BankProducts.Infrastructure\BankProducts.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
