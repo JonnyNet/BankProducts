@@ -53,7 +53,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty;
 });
 
-//app.RunMigrationsRepositories();
+app.RunMigrationsRepositories();
 app.UseCors("CorsPolicy");
 app.UseHttpsRedirection();
 
